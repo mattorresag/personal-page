@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "@fontsource/m-plus-code-latin/latin.css";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,6 +17,36 @@
   }
 }
 
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  max-width: 100vw;
+  font-family: 'Figtree', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#__next {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,6 +55,112 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@layer components {
+  .display-120 {
+    @apply font-[300];
+    @apply text-[10rem];
+    @apply leading-[12rem];
+    @apply text-neutral-10;
+  }
+  .display-80 {
+    @apply font-[300];
+    @apply text-[5rem];
+    @apply leading-[6rem];
+    @apply text-white;
+  }
+  .h1 {
+    @apply font-[300];
+    @apply text-[4rem];
+    @apply leading-[4.8rem];
+    @apply text-white;
+  }
+  .h2 {
+    @apply font-[400];
+    @apply text-[2rem];
+    @apply leading-[2.4rem];
+    @apply text-white;
+    @apply font-mPlusCodeLatin;
+  }
+  .h3 {
+    @apply font-[500];
+    @apply text-[1.25rem];
+    @apply leading-[1.875rem];
+    @apply text-white;
+  }
+  .h4 {
+    @apply font-[500];
+    @apply text-[0.875rem];
+    @apply leading-[1.05rem];
+    @apply text-white;
+  }
+
+  .p18 {
+    @apply font-[300];
+    @apply text-[1.5rem];
+    @apply leading-[2rem];
+    @apply text-[rgb(255,255,255,0.87)];
+  }
+  .p16 {
+    @apply font-[400];
+    @apply text-[1.25rem];
+    @apply leading-[1.875rem];
+    @apply text-[rgb(255,255,255,0.87)];
+  }
+  .p14 {
+    @apply font-[400];
+    @apply text-[1.125rem];
+    @apply leading-[1.355rem];
+    @apply text-[rgb(255,255,255,0.87)];
+    @apply font-mPlusCodeLatin;
+  }
+
+  .p12 {
+    @apply font-[400];
+    @apply text-[1rem];
+    @apply leading-[1.5rem];
+    @apply text-[rgb(255,255,255,0.87)];
+  } 
+  .subheading16 {
+    @apply font-[700];
+    @apply text-[1rem];
+    @apply leading-[1.2rem];
+    @apply text-[rgb(255,255,255,0.70)];
+    @apply tracking-[0.375rem]
+    @apply uppercase;
+    @apply font-mPlusCodeLatin
+  }
+
+  .subheading14 {
+    @apply font-[500];
+    @apply text-[0.875rem];
+    @apply leading-[1.05rem];
+    @apply text-[rgb(255,255,255,0.70)];
+    @apply tracking-[0.375rem]
+    @apply uppercase;
+    @apply font-mPlusCodeLatin
+  }
+
+  .subheading12 {
+    @apply font-[700];
+    @apply text-[0.75rem];
+    @apply leading-[0.88rem];
+    @apply text-white;
+    @apply tracking-[0.375rem]
+    @apply uppercase;
+    @apply font-mPlusCodeLatin
+  }
+
+  .caps14 {
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 16.8px */
+letter-spacing: 6px;
+@apply uppercase;
+@apply font-mPlusCodeLatin
+  }
 }
 
 @layer utilities {
