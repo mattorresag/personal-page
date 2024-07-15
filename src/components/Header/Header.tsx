@@ -10,7 +10,7 @@ export const Header = (): JSX.Element => {
   };
   return (
     <Flex className="items-center justify-between pt-8">
-      <nav className="flex bg-white/5 px-5 rounded-md gap-8 items-center h4 text-neutral-10 h-12">
+      <nav className="flex bg-white/5 px-5 rounded-md gap-8 items-center h4 text-neutral-10 h-12 hidden lg:flex">
         <Link href="/">
           <p>Matheus Torres</p>
         </Link>
@@ -21,11 +21,79 @@ export const Header = (): JSX.Element => {
           <p>Contato</p>
         </Link>
       </nav>
+      <div className="lg:hidden">
+        <svg
+          width="44"
+          height="44"
+          viewBox="0 0 44 44"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g filter="url(#filter0_b_41_43)">
+            <rect
+              width="44"
+              height="44"
+              rx="8"
+              fill="white"
+              fill-opacity="0.05"
+            />
+            <g clip-path="url(#clip0_41_43)">
+              <path
+                d="M14 18H30"
+                stroke="#A594FD"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M14 26H30"
+                stroke="#A594FD"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </g>
+          <defs>
+            <filter
+              id="filter0_b_41_43"
+              x="-8"
+              y="-8"
+              width="60"
+              height="60"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feGaussianBlur in="BackgroundImageFix" stdDeviation="4" />
+              <feComposite
+                in2="SourceAlpha"
+                operator="in"
+                result="effect1_backgroundBlur_41_43"
+              />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect1_backgroundBlur_41_43"
+                result="shape"
+              />
+            </filter>
+            <clipPath id="clip0_41_43">
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(10 10)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
       <button
         onClick={() => {
           copyEmail();
         }}
-        className="flex justify-between py-2 px-5 bg-white/5 items-center gap-2 rounded-[22px]"
+        className="flex justify-between py-2 px-5 backdrop-blur-[4px] bg-white/5 items-center gap-2 rounded-[22px] h-11 lg:h-fit"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +122,7 @@ export const Header = (): JSX.Element => {
             </clipPath>
           </defs>
         </svg>
-        <p>matheusftaguiar@gmail.com</p>
+        <p className="h4">matheusftaguiar@gmail.com</p>
       </button>
     </Flex>
   );
