@@ -152,6 +152,14 @@ body {
     @apply font-mPlusCodeLatin;
   }
 
+  .caps16 {
+    @apply font-[700];
+    @apply uppercase;
+    @apply font-mPlusCodeLatin;
+    @apply text-[1rem];
+    @apply tracking-[6px];
+  }
+
   .caps14 {
 font-size: 0.875rem;
 font-style: normal;
