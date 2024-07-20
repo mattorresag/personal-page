@@ -1,3 +1,4 @@
+import { GetInTouchButton } from "@/components/Button/GetInTouchButton";
 import { Flex } from "@/components/Flex/Flex";
 import { Header } from "@/components/Header/Header";
 
@@ -78,11 +79,7 @@ export const HeroSection = (): JSX.Element => {
             velocidade, qualidade e desempenho excepcionais, dando vida ao seu
             projeto.
           </h3>
-          <button className="bg-primary-pure  h-14 w-[238px] rounded-tl-lg rounded-br-lg">
-            <p className="text-white font-[700] subheading12 font-figtree tracking-[3px]">
-              ENTRAR EM CONTATO
-            </p>
-          </button>
+          <GetInTouchButton />
         </Flex>
       </Flex>
     </Flex>

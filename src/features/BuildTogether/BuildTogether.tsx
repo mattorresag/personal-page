@@ -1,11 +1,11 @@
+import { GetInTouchButton } from "@/components/Button/GetInTouchButton";
 import { Flex } from "@/components/Flex/Flex";
 import React from "react";
-import { RecentJobCard } from "./RecentJobCard";
 
-export const RecentJobs = () => {
+export const BuildTogether = () => {
   return (
-    <Flex className="flex-col lg:py-40 py-16 gap-12 lg:gap-20 max-[1280px]:px-[5%]">
-      <Flex className="max-lg:flex-col lg:gap-[96px] lg:justify-between max-lg:items-center">
+    <Flex className="flex-col  gap-12 lg:gap-20 max-[1280px]:px-[5%]">
+      <Flex className="max-lg:flex-col justify-center gap-5 max-lg:items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="248"
@@ -31,13 +31,11 @@ export const RecentJobs = () => {
             </linearGradient>
           </defs>
         </svg>
-        <Flex className="flex-col gap-2 items-center max-w-[534px]">
-          <h2 className="h1 text-neutral-10 text-center">Trabalhos recentes</h2>
-          <p className="text-neutral-60 p12 text-center">
-            Lorem ipsum dolor sit amet consectetur. Volutpat morbi lacus ipsum
-            at ac sagittis. A risus dui vitae non orci nulla quam proin
-            ultricies. Auctor morbi{" "}
-          </p>
+        <Flex className="flex-col gap-2 items-center max-w-[534px] gap-8">
+          <h2 className="h1 text-neutral-10 text-center">
+            Vamos iniciar um projeto juntos?
+          </h2>
+          <GetInTouchButton />
         </Flex>
         <div className="max-lg:hidden">
           <svg
@@ -66,36 +64,6 @@ export const RecentJobs = () => {
             </defs>
           </svg>
         </div>
-      </Flex>
-      <Flex className="max-lg:flex-col lg:justify-between lg:gap-20 gap-8">
-        <Flex className="flex-col lg:gap-40 gap-8">
-          <RecentJobCard
-            description="As melhores experiências com as autênticas skins"
-            title="HRSKINS - "
-            jobType="SITE INSTITUCIONAL"
-            image="/hrskins.png"
-          />
-          <RecentJobCard
-            description="Produtos inovadores em biotecnologia."
-            title="Aeskins Pharmaceutical - "
-            jobType="SITE INSTITUCIONAL"
-            image="/aeskins.png"
-          />
-        </Flex>
-        <Flex className="flex-col lg:gap-40 lg:mt-20 gap-8">
-          <RecentJobCard
-            description="Escolha o fretamento ideal para você."
-            title="Fretatech - "
-            jobType="SITE INSTITUCIONAL E SISTEMA"
-            image="/fretatech.png"
-          />
-          <RecentJobCard
-            description="Especialista em relojoaria moderna."
-            title="Bernardo Entusiasta - "
-            jobType="SITE INSTITUCIONAL"
-            image="/bakery.png"
-          />
-        </Flex>
       </Flex>
     </Flex>
   );
