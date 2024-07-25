@@ -1,18 +1,20 @@
 import { Flex } from "@/components/Flex/Flex";
 import React from "react";
 import { RecentJobCard } from "./RecentJobCard";
+import Image from "next/image";
 
 export const RecentJobs = () => {
   return (
-    <Flex
-      className="flex-col lg:py-40 py-16 gap-12 lg:gap-20 max-[1280px]:px-[5%] w-full items-center"
-      style={{
-        backgroundImage: "url('/background.png')",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-      }}
-    >
-      <Flex className="max-w-[1200px] max-lg:flex-col lg:gap-[96px] lg:justify-between gap-4 max-lg:items-center">
+    <Flex className="flex-col relative lg:py-40 py-16 z-2 gap-12 lg:gap-20 max-[1280px]:px-[5%] w-full items-center">
+      <Flex className="w-full h-full absolute top-0 z-[0] background-image">
+        <Image
+          src="/background.png"
+          layout="fill"
+          objectFit="cover"
+          alt="background image"
+        />
+      </Flex>
+      <Flex className="z-[1] max-w-[1200px] max-lg:flex-col lg:gap-[96px] lg:justify-between gap-4 max-lg:items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="248"
@@ -76,7 +78,7 @@ export const RecentJobs = () => {
           </svg>
         </div>
       </Flex>
-      <Flex className="max-lg:flex-col lg:justify-between lg:gap-20 gap-8">
+      <Flex className="z-[1] max-lg:flex-col lg:justify-between lg:gap-20 gap-8">
         <Flex className="flex-col lg:gap-40 gap-8">
           <RecentJobCard
             description="As melhores experiências com as autênticas skins"
