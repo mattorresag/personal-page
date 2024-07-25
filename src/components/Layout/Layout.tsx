@@ -12,7 +12,7 @@ export const Layout = ({ children, align = "center" }: Props): JSX.Element => {
       <main className="w-full max-w-[100vw]  min-h-full relative overflow-x-hidden overflow-y-auto">
         <Flex className="w-full justify-center items-center bg-black">
           <Flex
-            className="h-full w-full max-w-[1200px] min-h-[100dvh]"
+            className="h-full w-full min-h-[100dvh] items-center"
             direction="col"
           >
             {children}

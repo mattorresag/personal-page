@@ -32,8 +32,8 @@ export const BuildTogether = () => {
           </defs>
         </svg>
         <Flex className="flex-col gap-2 items-center max-w-[534px] gap-8">
-          <h2 className="h1 text-neutral-10 text-center">
-            Vamos iniciar um projeto juntos?
+          <h2 className="h3 lg:h1 text-neutral-10 text-center">
+            Vamos iniciar um <br /> projeto juntos?
           </h2>
           <GetInTouchButton />
         </Flex>

@@ -1,3 +1,5 @@
+import { Flex } from "@/components/Flex/Flex";
+import { Footer } from "@/components/Footer/Footer";
 import { Layout } from "@/components/Layout/Layout";
 import { About } from "@/features/About/About";
 import { BuildTogether } from "@/features/BuildTogether/BuildTogether";
@@ -8,11 +10,14 @@ import { RecentJobs } from "@/features/RecentJobs/RecentJobs";
 export default function Home() {
   return (
     <Layout>
-      <HeroSection />
-      <About />
+      <Flex className="flex-col w-full items-center max-w-[1200px] ">
+        <HeroSection />
+        <About />
+      </Flex>
       <RecentJobs />
       <BuildTogether />
       <Carousel />
+      <Footer />
     </Layout>
   );
 }

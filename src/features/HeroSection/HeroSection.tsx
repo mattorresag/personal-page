@@ -4,7 +4,7 @@ import { Header } from "@/components/Header/Header";
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <Flex className="gap-[104px] flex-col w-full h-full pb-[88px] max-[1280px]:px-[5%]">
+    <Flex className="gap-[104px] flex-col w-full h-full pb-20 lg:pb-[88px] max-[1280px]:px-[5%]">
       <Header />
       <Flex className="gap-20 flex-col max-[450px]:max-w-full max-w-[500px] lg:max-w-[785px]">
         <Flex className="gap-6 flex-col">

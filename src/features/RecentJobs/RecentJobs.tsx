@@ -4,8 +4,15 @@ import { RecentJobCard } from "./RecentJobCard";
 
 export const RecentJobs = () => {
   return (
-    <Flex className="flex-col lg:py-40 py-16 gap-12 lg:gap-20 max-[1280px]:px-[5%]">
-      <Flex className="max-lg:flex-col lg:gap-[96px] lg:justify-between max-lg:items-center">
+    <Flex
+      className="flex-col lg:py-40 py-16 gap-12 lg:gap-20 max-[1280px]:px-[5%] w-full items-center"
+      style={{
+        backgroundImage: "url('/background.png')",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
+      <Flex className="max-w-[1200px] max-lg:flex-col lg:gap-[96px] lg:justify-between gap-4 max-lg:items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="248"
@@ -32,7 +39,9 @@ export const RecentJobs = () => {
           </defs>
         </svg>
         <Flex className="flex-col gap-2 items-center max-w-[534px]">
-          <h2 className="h1 text-neutral-10 text-center">Trabalhos recentes</h2>
+          <h2 className="max-lg:h2 lg:h1 lg:font-[300] text-neutral-10 text-center">
+            Trabalhos recentes
+          </h2>
           <p className="text-neutral-60 p12 text-center">
             Lorem ipsum dolor sit amet consectetur. Volutpat morbi lacus ipsum
             at ac sagittis. A risus dui vitae non orci nulla quam proin
@@ -74,12 +83,14 @@ export const RecentJobs = () => {
             title="HRSKINS - "
             jobType="SITE INSTITUCIONAL"
             image="/hrskins.png"
+            url="https://hrskins.gg"
           />
           <RecentJobCard
             description="Produtos inovadores em biotecnologia."
             title="Aeskins Pharmaceutical - "
             jobType="SITE INSTITUCIONAL"
             image="/aeskins.png"
+            url="https://hrskins.gg"
           />
         </Flex>
         <Flex className="flex-col lg:gap-40 lg:mt-20 gap-8">
@@ -88,12 +99,14 @@ export const RecentJobs = () => {
             title="Fretatech - "
             jobType="SITE INSTITUCIONAL E SISTEMA"
             image="/fretatech.png"
+            url="https://fretatech-front.vercel.app/"
           />
           <RecentJobCard
             description="Especialista em relojoaria moderna."
             title="Bernardo Entusiasta - "
             jobType="SITE INSTITUCIONAL"
             image="/bakery.png"
+            url="https://bernardo-entusiasta.vercel.app/"
           />
         </Flex>
       </Flex>

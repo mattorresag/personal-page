@@ -4,7 +4,7 @@ import { SkillCard } from "./SkillCard";
 
 export const About = (): JSX.Element => {
   return (
-    <Flex className="w-full max-lg:flex-col relative py-40 gap-20 max-[1280px]:px-[5%]">
+    <Flex className="w-full max-lg:flex-col relative lg:py-40 gap-20 max-[1280px]:px-[5%]">
       <Flex className="h-fit">
         <Image
           src="/circular.png"
@@ -17,12 +17,52 @@ export const About = (): JSX.Element => {
       </Flex>
       <Flex className="flex-col gap-20">
         <Flex className="flex-col gap-6 max-w-[591px]">
-          <Flex className="justify-between items-end gap-[60px]">
-            <Flex className="flex-col gap-2">
-              <p className="h2 text-neutral-10 ">Matheus Torres</p>
-              <p className="caps16 text-neutral-40 font-mPlusCodeLatin tracking-[6px] font-[700]">
-                FULLSTACK DEVELOPER
-              </p>
+          <Flex className="max-lg:flex-col lg:justify-between lg:items-end gap-5 lg:gap-[60px]">
+            <Flex className="items-center gap-4">
+              <svg
+                width="1"
+                height="63"
+                viewBox="0 0 1 63"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line
+                  x1="0.5"
+                  y1="2.18556e-08"
+                  x2="0.499997"
+                  y2="63"
+                  stroke="white"
+                  stroke-opacity="0.1"
+                />
+                <line
+                  x1="0.5"
+                  y1="2.18556e-08"
+                  x2="0.499997"
+                  y2="63"
+                  stroke="url(#paint0_linear_41_102)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_41_102"
+                    x1="-0.499988"
+                    y1="6.82969e-09"
+                    x2="-0.50006"
+                    y2="63"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#9897FF" stop-opacity="0" />
+                    <stop offset="0.5" stop-color="#9897FF" />
+                    <stop offset="1" stop-color="#9796FE" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+
+              <Flex className="flex-col gap-2 ">
+                <p className="h2 text-neutral-10 ">Matheus Torres</p>
+                <p className="caps16 text-neutral-40 text-nowrap font-mPlusCodeLatin tracking-[6px] font-[700]">
+                  FULLSTACK DEVELOPER
+                </p>
+              </Flex>
             </Flex>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +91,7 @@ export const About = (): JSX.Element => {
               </defs>
             </svg>
           </Flex>
-          <p className="p16 text-neutral-60 leading-[150%] font-[300]">
+          <p className="p12 lg:p16 text-neutral-60 leading-[150%] font-[300]">
             Sou um Desenvolvedor FullStack com habilidades em ReactJS,
             TypeScript, NextJS e Django, bem como experiência em testes de
             aplicação com Cypress.io e Pytest. Com mais um dois anos de

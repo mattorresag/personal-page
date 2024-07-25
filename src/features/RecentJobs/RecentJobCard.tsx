@@ -1,31 +1,37 @@
 import { Flex } from "@/components/Flex/Flex";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Props {
   image: string;
   title: string;
   description: string;
   jobType: string;
+  url: string;
 }
 export const RecentJobCard = ({
   title,
   image,
   description,
   jobType,
+  url,
 }: Props): JSX.Element => {
   return (
     <Flex className="flex-col gap-10 max-w-[568px] w-full">
-      <Flex className="relative w-full  aspect-[568/664] rounded-[16px] border-[2px] border-[#9897FF]">
-        <Image
-          src={image}
-          alt={title}
-          layout="fill"
-          objectFit="fill"
-          quality={100}
-        />
-      </Flex>
+      <Link href={url} target="_blank">
+        <Flex className="relative w-full  aspect-[568/664] rounded-[16px] border-[2px] border-[#9897FF]">
+          <Image
+            src={image}
+            alt={title}
+            layout="fill"
+            objectFit="fill"
+            quality={100}
+          />
+        </Flex>
+      </Link>
+
       <Flex className="flex-col gap-8">
-        <p className="text-[2rem] text-neutral-10 leading-[150%] font-[500]">
+        <p className="text-[1.5rem] lg:text-[2rem] text-neutral-10 leading-[150%] font-[500]">
           {title}
           <span className="font-[300] text-neutral-60">{description}</span>
         </p>
@@ -68,7 +74,7 @@ export const RecentJobCard = ({
             </defs>
           </svg>
 
-          <p className="text-neutral-40 caps16">{jobType}</p>
+          <p className="text-neutral-40 caps14 lg:caps16">{jobType}</p>
         </Flex>
       </Flex>
     </Flex>
