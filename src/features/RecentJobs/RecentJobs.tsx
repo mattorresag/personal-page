@@ -5,7 +5,10 @@ import Image from "next/image";
 
 export const RecentJobs = () => {
   return (
-    <Flex className="flex-col relative lg:py-40 py-16 z-2 gap-12 lg:gap-20 max-[1280px]:px-[5%] w-full items-center">
+    <Flex
+      className="flex-col relative lg:py-40 py-16 z-2 gap-12 lg:gap-20 max-[1280px]:px-[5%] w-full items-center"
+      id="projects"
+    >
       <Flex className="w-full h-full absolute top-0 z-[0] background-image">
         <Image
           src="/background.png"
@@ -107,7 +110,7 @@ export const RecentJobs = () => {
             description="Especialista em relojoaria moderna."
             title="Bernardo Entusiasta - "
             jobType="SITE INSTITUCIONAL"
-            image="/bakery.png"
+            image="/bernardo.png"
             url="https://bernardo-entusiasta.vercel.app/"
           />
         </Flex>
