@@ -16,12 +16,11 @@ export const About = (): JSX.Element => {
       </Flex>
       <Flex className="z-[1] max-w-[1200px] w-full max-lg:flex-col max-[1280px]:px-[5%] gap-20">
         <Flex className="h-fit">
-          <Image
+          <img
             src="/circular.png"
             width={96}
             height={107}
             alt="Circular svg"
-            quality={100}
             className="animate-spin-slow"
           />
         </Flex>
