@@ -5,7 +5,7 @@ import { SkillCard } from "./SkillCard";
 export const About = (): JSX.Element => {
   return (
     <Flex className="w-full max-lg:flex-col-reverse relative lg:py-40 gap-20 justify-center w-screen">
-      <Flex className="lg:absolute right-0 z-[0] opacity-10">
+      <Flex className="absolute right-0 z-[0] opacity-10">
         <Image
           src="/about-bg.png"
           width={705}
