@@ -5,7 +5,7 @@ interface Props {
 }
 export const SkillCard = ({ text }: Props): JSX.Element => {
   return (
-    <Flex className="relative">
+    <Flex className="relative select-none">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="140"

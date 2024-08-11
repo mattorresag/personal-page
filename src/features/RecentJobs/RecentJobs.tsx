@@ -45,12 +45,10 @@ export const RecentJobs = () => {
         </svg>
         <Flex className="flex-col gap-2 items-center max-w-[534px]">
           <h2 className="max-lg:h2 lg:h1 lg:font-[300] text-neutral-10 text-center">
-            Trabalhos recentes
+            Recent Jobs
           </h2>
           <p className="text-neutral-60 p12 text-center">
-            Lorem ipsum dolor sit amet consectetur. Volutpat morbi lacus ipsum
-            at ac sagittis. A risus dui vitae non orci nulla quam proin
-            ultricies. Auctor morbi{" "}
+            These are my latest freelance projects. I hope you like it!
           </p>
         </Flex>
         <div className="max-lg:hidden">
@@ -84,32 +82,32 @@ export const RecentJobs = () => {
       <Flex className="z-[1] max-lg:flex-col lg:justify-between lg:gap-20 gap-8">
         <Flex className="flex-col lg:gap-40 gap-8">
           <RecentJobCard
-            description="As melhores experiências com as autênticas skins"
+            description="Built with Next.js 12 + i18n + TailwindCSS."
             title="HRSKINS - "
-            jobType="SITE INSTITUCIONAL"
+            jobType="INSTITUTIONAL WEBSITE"
             image="/hrskins.png"
             url="https://hrskins.gg"
           />
           <RecentJobCard
-            description="Produtos inovadores em biotecnologia."
+            description="Built with Next.js 12 using Next-SEO + TailwindCSS."
             title="Aeskins Pharmaceutical - "
-            jobType="SITE INSTITUCIONAL"
+            jobType="INSTITUTIONAL WEBSITE"
             image="/aeskins.png"
-            url="https://hrskins.gg"
+            url="https://aeskins.vercel.app/"
           />
         </Flex>
         <Flex className="flex-col lg:gap-40 lg:mt-20 gap-8">
           <RecentJobCard
-            description="Escolha o fretamento ideal para você."
+            description="Built with Next.js 13 using server-side rendering for SEO + TailwindCSS."
             title="Fretatech - "
-            jobType="SITE INSTITUCIONAL E SISTEMA"
+            jobType="INSTITUTIONAL WEBSITE"
             image="/fretatech.png"
             url="https://fretatech-front.vercel.app/"
           />
           <RecentJobCard
-            description="Especialista em relojoaria moderna."
+            description="Built with Next.js 14 + TailwindCSS."
             title="Bernardo Entusiasta - "
-            jobType="SITE INSTITUCIONAL"
+            jobType="INSTITUTIONAL LANDING PAGE"
             image="/bernardo.png"
             url="https://bernardo-entusiasta.vercel.app/"
           />

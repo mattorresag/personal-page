@@ -6,7 +6,8 @@ const figtree = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Matheus Torres Dev",
-  description: "FullStack Developer focused on React, Next.js and NestJS",
+  description:
+    "FullStack Developer with skills in React, Next.js, Node.js, and more.",
 };
 
 export default function RootLayout({

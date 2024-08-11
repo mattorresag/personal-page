@@ -9,7 +9,7 @@ export const HeroSection = (): JSX.Element => {
       <Flex className="gap-20 flex-col max-[450px]:max-w-full max-w-[500px] lg:max-w-[785px]">
         <Flex className="gap-6 flex-col">
           <Flex className="gap-2 flex-col">
-            <h5 className="p14 text-neutral-10">&lt;Olá! boas vindas &gt;</h5>
+            <h5 className="p14 text-neutral-10">&lt;Welcome! /&gt;</h5>
             <h2 className="caps14 text-neutral-40">FULLSTACK DEVELOPER</h2>
           </Flex>
           <Flex className="w-full flex-col display-80 lg:display-120">
@@ -26,13 +26,6 @@ export const HeroSection = (): JSX.Element => {
                   <path
                     d="M289.667 22C289.667 23.4728 288.473 24.6667 287 24.6667C285.527 24.6667 284.333 23.4728 284.333 22C284.333 20.5272 285.527 19.3333 287 19.3333C288.473 19.3333 289.667 20.5272 289.667 22ZM217.351 22V22.5C217.257 22.5 217.166 22.474 217.087 22.4249L217.351 22ZM183.5 1V0.5C183.593 0.5 183.684 0.526017 183.764 0.57512L183.5 1ZM1 1.5C0.723846 1.5 0.5 1.27614 0.5 1C0.5 0.723858 0.723846 0.5 1 0.5V1.5ZM287 22.5H217.351V21.5H287V22.5ZM217.087 22.4249L183.236 1.42488L183.764 0.57512L217.614 21.5751L217.087 22.4249ZM183.5 1.5H1V0.5H183.5V1.5Z"
                     fill="url(#paint0_linear_1_86)"
-                    style={{
-                      animation: "lightning 4s linear infinite",
-                      stroke: "url(#paint0_linear_1_86)",
-                      strokeWidth: "1",
-                      strokeDasharray: "290",
-                      strokeDashoffset: "290",
-                    }}
                   />
 
                   <defs>
@@ -77,15 +70,15 @@ export const HeroSection = (): JSX.Element => {
                   </defs>
                 </svg>
               </div>
-              <span className="text-end">Torres.</span>
+              <span className="text-end">Torres</span>
             </Flex>
           </Flex>
         </Flex>
         <Flex className="flex-col gap-8">
           <h3 className="p16 leading-[150%] lg:p18 text-neutral-10">
-            Sou um profissional que transforma o design em páginas web com
-            velocidade, qualidade e desempenho excepcionais, dando vida ao seu
-            projeto.
+            I am a professional who transforms design into web pages with
+            exceptional speed, quality, and performance, bringing your project
+            to life.
           </h3>
           <GetInTouchButton />
         </Flex>

@@ -101,25 +101,24 @@ export const About = (): JSX.Element => {
               </svg>
             </Flex>
             <p className="p12 lg:p16 text-neutral-60 leading-[150%] font-[300]">
-              Sou um Desenvolvedor FullStack com habilidades em ReactJS,
-              TypeScript, NextJS e Django, bem como experiência em testes de
-              aplicação com Cypress.io e Pytest. Com mais um dois anos de
-              experiência no desenvolvimento de aplicações web de alta
-              qualidade, eu trago uma paixão pela criação de soluções elegantes
-              e eficazes para problemas complexos.
+              I am a FullStack Developer with skills in ReactJS, TypeScript,
+              NextJS, NestJS, and Django, as well as experience in application
+              testing with Cypress.io and Pytest. With over three years of
+              experience in developing high-quality web applications, I bring a
+              passion for creating elegant and effective solutions to complex
+              problems.
               <br />
               <br />
               <span className="inline-block">
-                Com um forte foco na experiência do usuário, estou sempre
-                buscando aprender e crescer em minhas habilidades técnicas e
-                colaborar com equipes para criar soluções inovadoras e
-                impactantes.
+                With a strong focus on user experience, I am always seeking to
+                learn and grow in my technical skills and collaborate with teams
+                to create innovative and impactful solutions.
               </span>
             </p>
           </Flex>
           <Flex className="flex-col gap-4">
             <p className="caps16 text-neutral-60 uppercase font-mPlusCodeLatin tracking-[6px] font-[700]">
-              &lt;Habilidades em &gt;
+              &lt;Skills &gt;
             </p>
             <Flex className="items-center gap-6 flex-wrap max-lg:justify-between">
               <SkillCard text="NextJs" />

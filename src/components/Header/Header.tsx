@@ -15,10 +15,10 @@ export const Header = (): JSX.Element => {
           <p>Matheus Torres</p>
         </Link>
         <Link href="#projects">
-          <p>Projetos</p>
+          <p>Projects</p>
         </Link>
         <Link href="#contact">
-          <p>Contato</p>
+          <p>Contact</p>
         </Link>
       </nav>
       <div className="lg:hidden">
