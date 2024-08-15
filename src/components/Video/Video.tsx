@@ -9,7 +9,7 @@ export const Video = () => {
       loop
       muted
       playsInline
-      src="/bg_video.mp4"
+      src="/bg_video.webm"
     />
   );
 };
