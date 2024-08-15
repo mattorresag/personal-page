@@ -53,7 +53,7 @@ export const RecentJobCard = ({
               x2="1"
               y2="48.4351"
               stroke="white"
-              stroke-opacity="0.1"
+              strokeOpacity="0.1"
             />
             <line
               x1="1"
@@ -71,9 +71,9 @@ export const RecentJobCard = ({
                 y2="48.4351"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#9897FF" stop-opacity="0" />
-                <stop offset="0.5" stop-color="#9897FF" />
-                <stop offset="1" stop-color="#9796FE" stop-opacity="0" />
+                <stop stopColor="#9897FF" stopOpacity="0" />
+                <stop offset="0.5" stopColor="#9897FF" />
+                <stop offset="1" stopColor="#9796FE" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>

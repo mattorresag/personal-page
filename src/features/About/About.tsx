@@ -41,7 +41,7 @@ export const About = (): JSX.Element => {
                     x2="0.499997"
                     y2="63"
                     stroke="white"
-                    stroke-opacity="0.1"
+                    strokeOpacity="0.1"
                   />
                   <line
                     x1="0.5"
@@ -59,9 +59,9 @@ export const About = (): JSX.Element => {
                       y2="63"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#9897FF" stop-opacity="0" />
-                      <stop offset="0.5" stop-color="#9897FF" />
-                      <stop offset="1" stop-color="#9796FE" stop-opacity="0" />
+                      <stop stopColor="#9897FF" stopOpacity="0" />
+                      <stop offset="0.5" stopColor="#9897FF" />
+                      <stop offset="1" stopColor="#9796FE" stopOpacity="0" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -94,8 +94,8 @@ export const About = (): JSX.Element => {
                     y2="11.2291"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#9897FF" />
-                    <stop offset="1" stop-color="#9897FF" stop-opacity="0" />
+                    <stop stopColor="#9897FF" />
+                    <stop offset="1" stopColor="#9897FF" stopOpacity="0" />
                   </linearGradient>
                 </defs>
               </svg>

@@ -30,36 +30,36 @@ export const Footer = () => {
                 height="45.7171"
                 rx="22.8585"
                 stroke="white"
-                stroke-opacity="0.1"
-                stroke-width="2.28292"
+                strokeOpacity="0.1"
+                strokeWidth="2.28292"
               />
               <path
                 d="M18 22.5002V30.0002"
                 stroke="#A594FD"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M18 18V18.015"
                 stroke="#A594FD"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M24 30.0002V22.5002"
                 stroke="#A594FD"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M30 30.0002V25.5002C30 24.7046 29.6839 23.9415 29.1213 23.3789C28.5587 22.8163 27.7956 22.5002 27 22.5002C26.2044 22.5002 25.4413 22.8163 24.8787 23.3789C24.3161 23.9415 24 24.7046 24 25.5002"
                 stroke="#A594FD"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>

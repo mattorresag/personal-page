@@ -37,8 +37,8 @@ export const HeroSection = (): JSX.Element => {
                       y2="11.5"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#9897FF" />
-                      <stop offset="1" stop-color="#9897FF" stop-opacity="0" />
+                      <stop stopColor="#9897FF" />
+                      <stop offset="1" stopColor="#9897FF" stopOpacity="0" />
                     </linearGradient>
                   </defs>
                 </svg>
@@ -64,8 +64,8 @@ export const HeroSection = (): JSX.Element => {
                       y2="-1.8125"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#9897FF" />
-                      <stop offset="1" stop-color="#9897FF" stop-opacity="0" />
+                      <stop stopColor="#9897FF" />
+                      <stop offset="1" stopColor="#9897FF" stopOpacity="0" />
                     </linearGradient>
                   </defs>
                 </svg>
