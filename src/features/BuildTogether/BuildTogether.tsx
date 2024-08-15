@@ -4,11 +4,48 @@ import React from "react";
 
 export const BuildTogether = () => {
   return (
-    <Flex className="flex-col  gap-12 lg:gap-20" id="contact">
-      <Flex className="max-lg:flex-col lg:hidden justify-center gap-5 max-lg:items-center mt-20">
-        <Flex className="flex-col gap-2 items-center max-w-[534px] gap-8">
-          <h2 className="h3 lg:h1 text-neutral-10 text-center">
-            Vamos iniciar um <br /> projeto juntos?
+    <Flex
+      id="contact"
+      className="flex-col  gap-12 lg:gap-20 max-[1280px]:px-[5%] mt-20"
+    >
+      <Flex className="max-lg:flex-col justify-center gap-5 max-lg:items-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="max-lg:hidden"
+          width="248"
+          height="26"
+          viewBox="0 0 248 26"
+          fill="none"
+        >
+          <path
+            d="M247.167 22.4351C247.167 23.9078 245.973 25.1017 244.5 25.1017C243.027 25.1017 241.833 23.9078 241.833 22.4351C241.833 20.9623 243.027 19.7684 244.5 19.7684C245.973 19.7684 247.167 20.9623 247.167 22.4351ZM185.079 22.4351V22.9351C184.933 22.9351 184.795 22.8716 184.7 22.7613L185.079 22.4351ZM166.994 1.43506V0.935059C167.14 0.935059 167.278 0.998488 167.373 1.10878L166.994 1.43506ZM0.5 1.93506C0.223846 1.93506 0 1.7112 0 1.43506C0 1.15892 0.223846 0.935059 0.5 0.935059V1.93506ZM244.5 22.9351H185.079V21.9351H244.5V22.9351ZM184.7 22.7613L166.615 1.76133L167.373 1.10878L185.458 22.1088L184.7 22.7613ZM166.994 1.93506H0.5V0.935059H166.994V1.93506Z"
+            fill="url(#paint0_linear_1_398)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_1_398"
+              x1="244.5"
+              y1="11.9351"
+              x2="55.6152"
+              y2="11.9351"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#9897FF" />
+              <stop offset="1" stop-color="#9897FF" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <Flex
+          className="flex-col gap-2 items-center w-screen gap-8 h-[150px] lg:min-h-[308px] min-[2000px]:min-h-[400px]"
+          style={{
+            backgroundImage: "url(/start_project.png)",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <h2 className="h3 lg:h1 text-neutral-10 text-center max-w-[680px]">
+            Let&apos;s build a project together!
           </h2>
           <GetInTouchButton />
         </Flex>
@@ -39,19 +76,6 @@ export const BuildTogether = () => {
             </defs>
           </svg>
         </div>
-      </Flex>
-      <Flex className="max-lg:flex-col max-lg:hidden justify-center gap-5 max-lg:items-center mt-10">
-        <Flex
-          className="flex-col relative gap-2 items-center w-screen h-[308px] gap-8 mt-10"
-          style={{
-            backgroundImage: "url(/start_project.png)",
-            backgroundPosition: "center",
-          }}
-        >
-          <div className="absolute bottom-[60px]">
-            <GetInTouchButton />
-          </div>
-        </Flex>
       </Flex>
     </Flex>
   );
