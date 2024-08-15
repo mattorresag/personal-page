@@ -1,15 +1,12 @@
 import { Flex } from "@/components/Flex/Flex";
 import { Footer } from "@/components/Footer/Footer";
 import { Layout } from "@/components/Layout/Layout";
+import { Video } from "@/components/Video/Video";
 import { About } from "@/features/About/About";
 import { BuildTogether } from "@/features/BuildTogether/BuildTogether";
 import { Carousel } from "@/features/Carousel/Carousel";
 import { HeroSection } from "@/features/HeroSection/HeroSection";
 import { RecentJobs } from "@/features/RecentJobs/RecentJobs";
-import dynamic from "next/dynamic";
-const Video = dynamic(() =>
-  import("@/components/Video/Video").then((mod) => mod.Video)
-);
 
 export default function Home() {
   return (
