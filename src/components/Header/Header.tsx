@@ -1,11 +1,13 @@
 "use client";
 import Link from "next/link";
 import { Flex } from "../Flex/Flex";
+import { toast } from "sonner";
 
 export const Header = (): JSX.Element => {
-  const copyEmail = () => {
+  const copyEmail = async () => {
     if (navigator) {
-      navigator.clipboard.writeText("matheusftaguiar@gmail.com");
+      await navigator.clipboard.writeText("matheusftaguiar@gmail.com");
+      toast.success("Email copied to clipboard");
     }
   };
   return (
