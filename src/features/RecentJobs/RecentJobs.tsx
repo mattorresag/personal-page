@@ -98,9 +98,9 @@ export const RecentJobs = () => {
         </Flex>
         <Flex className="flex-col lg:gap-40 lg:mt-20 gap-8">
           <RecentJobCard
-            description="Built with Next.js 13 using server-side rendering for SEO + TailwindCSS."
+            description="Multitenant app built with Next.js 13 using server-side rendering for SEO + TailwindCSS."
             title="Fretatech - "
-            jobType="INSTITUTIONAL WEBSITE"
+            jobType="SERVICE PLATFORM"
             image="/fretatech.png"
             url="https://fretatech-front.vercel.app/"
           />
