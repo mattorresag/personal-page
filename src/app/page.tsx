@@ -7,6 +7,7 @@ import { Carousel } from "@/features/Carousel/Carousel";
 import { HeroSection } from "@/features/HeroSection/HeroSection";
 import { RecentJobs } from "@/features/RecentJobs/RecentJobs";
 import dynamic from "next/dynamic";
+import Script from "next/script";
 import { Toaster } from "sonner";
 
 const Video = dynamic(
@@ -17,6 +18,15 @@ const Video = dynamic(
 export default function Home() {
   return (
     <>
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-4RPF106SCB');
+        `}
+      </Script>
       <Toaster closeButton />
       <Layout>
         <Flex id="#matheus" className="flex-col w-full items-center relative">
