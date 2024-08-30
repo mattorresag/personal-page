@@ -2,18 +2,13 @@ import { Flex } from "@/components/Flex/Flex";
 import { Footer } from "@/components/Footer/Footer";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics/GoogleAnalytics";
 import { Layout } from "@/components/Layout/Layout";
-import { About } from "@/features/About/About";
+import { Video } from "@/components/Video/Video";
+import { AnimatedAbout } from "@/features/About/AnimatedAbout";
 import { BuildTogether } from "@/features/BuildTogether/BuildTogether";
 import { Carousel } from "@/features/Carousel/Carousel";
 import { HeroSection } from "@/features/HeroSection/HeroSection";
 import { RecentJobs } from "@/features/RecentJobs/RecentJobs";
-import dynamic from "next/dynamic";
 import { Toaster } from "sonner";
-
-const Video = dynamic(
-  () => import("@/components/Video/Video").then((mod) => mod.Video),
-  { ssr: false }
-);
 
 export default function Home() {
   return (
@@ -32,7 +27,7 @@ export default function Home() {
             </Flex>
           </Flex>
           <Flex className="z-[1] flex-col w-full items-center max-w-[1200px] ">
-            <About />
+            <AnimatedAbout />
           </Flex>
         </Flex>
         <RecentJobs />
