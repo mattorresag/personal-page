@@ -18,10 +18,10 @@ export default function Home() {
       <Layout>
         <Flex id="#matheus" className="flex-col w-full items-center relative">
           <Flex className="flex-col w-full relative items-center  ">
-            <div className="w-full absolute top-0 min-h-full h-full">
+            {/* <div className="w-full absolute top-0 min-h-full h-full">
               <Video />
             </div>
-            <div className="w-full absolute bottom-0 h-32 bg-gradient-to-b from-transparent to-black pointer-events-none"></div>
+            <div className="w-full absolute bottom-0 h-32 bg-gradient-to-b from-transparent to-black pointer-events-none"></div> */}
             <Flex className="w-full z-[1] max-w-[1200px]">
               <HeroSection />
             </Flex>
