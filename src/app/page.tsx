@@ -1,5 +1,6 @@
 import { Flex } from "@/components/Flex/Flex";
 import { Footer } from "@/components/Footer/Footer";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics/GoogleAnalytics";
 import { Layout } from "@/components/Layout/Layout";
 import { About } from "@/features/About/About";
 import { BuildTogether } from "@/features/BuildTogether/BuildTogether";
@@ -7,7 +8,6 @@ import { Carousel } from "@/features/Carousel/Carousel";
 import { HeroSection } from "@/features/HeroSection/HeroSection";
 import { RecentJobs } from "@/features/RecentJobs/RecentJobs";
 import dynamic from "next/dynamic";
-import Script from "next/script";
 import { Toaster } from "sonner";
 
 const Video = dynamic(
@@ -18,15 +18,7 @@ const Video = dynamic(
 export default function Home() {
   return (
     <>
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-4RPF106SCB');
-        `}
-      </Script>
+      <GoogleAnalytics />
       <Toaster closeButton />
       <Layout>
         <Flex id="#matheus" className="flex-col w-full items-center relative">
