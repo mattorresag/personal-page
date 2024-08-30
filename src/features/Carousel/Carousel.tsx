@@ -8,7 +8,7 @@ export const Carousel = () => {
       <Flex className="w-full overflow-hidden cursor-pointer">
         <Flex className="w-full justify-center">
           <Flex className="gap-8 justify-center">
-            <p className="max-lg:text-[2rem] display-80 text-[#cdc6f6]/20 select-none">
+            <p className="max-lg:text-[1.8rem] display-80 text-[#cdc6f6]/20 select-none">
               matheusftaguiar@gmail.com
             </p>
           </Flex>
