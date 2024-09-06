@@ -9,6 +9,7 @@ export const Video = () => {
       loop
       muted
       playsInline
+      poster="/bg-image.png"
     >
       <source src="/bg_video.webm" type="video/webm" />
     </video>
