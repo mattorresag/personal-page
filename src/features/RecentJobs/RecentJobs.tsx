@@ -92,11 +92,12 @@ export const RecentJobs = () => {
           <Flex className="flex-col lg:gap-40 gap-8">
             <RecentJobCard
               description="Built with Next.js 14 + TailwindCSS."
-              title="Bernardo Entusiasta - "
-              jobType="INSTITUTIONAL LANDING PAGE"
-              image="/bernardo.png"
-              url="https://bernardo-entusiasta.vercel.app/"
+              title="Avocado Mídia - "
+              jobType="INSTITUTIONAL HOME PAGE"
+              image="/avocado.png"
+              url="https://avocado-site-8ofv.vercel.app/"
             />
+
             <RecentJobCard
               description="Multitenant app built with Next.js 13 using server-side rendering for SEO + TailwindCSS."
               title="Fretatech - "
@@ -115,10 +116,10 @@ export const RecentJobs = () => {
           <Flex className="flex-col lg:gap-40 lg:mt-20 gap-8">
             <RecentJobCard
               description="Built with Next.js 14 + TailwindCSS."
-              title="Avocado Mídia - "
-              jobType="INSTITUTIONAL HOME PAGE"
-              image="/avocado.png"
-              url="https://avocado-site-8ofv.vercel.app/"
+              title="Bernardo Entusiasta - "
+              jobType="INSTITUTIONAL LANDING PAGE"
+              image="/bernardo.png"
+              url="https://bernardo-entusiasta.vercel.app/"
             />
             <RecentJobCard
               description="Built with Next.js 12 + i18n + TailwindCSS."
