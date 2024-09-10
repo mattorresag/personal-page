@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 export const RecentJobs = () => {
   return (
     <Flex
-      className="flex-col relative lg:py-40 py-16 z-2 gap-12 lg:gap-20 max-[1280px]:px-[5%] w-full items-center"
+      className="lg:snap-start flex-col relative min-[1600px]:pt-10 max-lg:mt-8 py-20 z-2 gap-12 lg:gap-20 max-[1280px]:px-[5%] w-full items-center"
       id="projects"
     >
       <Flex className="w-full h-full absolute top-0 z-[0] background-image">
@@ -89,7 +89,7 @@ export const RecentJobs = () => {
           transition={{ duration: 0.2, ease: "easeOut" }}
           viewport={{ once: false, amount: 0.1 }}
         >
-          <Flex className="flex-col lg:gap-40 gap-8">
+          <Flex className="flex-col lg:gap-20 gap-8">
             <RecentJobCard
               description="Built with Next.js 14 + TailwindCSS."
               title="Avocado Mídia - "

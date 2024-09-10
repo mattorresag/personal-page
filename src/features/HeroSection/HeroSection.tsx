@@ -36,10 +36,10 @@ export const HeroSection = (): JSX.Element => {
   };
 
   return (
-    <Flex className="gap-[104px] flex-col w-full h-full pb-20 lg:pb-[88px] max-[1280px]:px-[5%]">
+    <Flex className="min-[1600px]:gap-[104px] gap-8 flex-col w-full h-full pb-20 lg:pb-[88px] max-[1280px]:px-[5%]">
       <Header />
-      <Flex className="gap-20 flex-col max-[450px]:max-w-full max-w-[500px] lg:max-w-[785px]">
-        <Flex className="gap-6 flex-col">
+      <Flex className="gap-12 min-[1600px]:gap-20 flex-col max-[450px]:max-w-full max-w-[500px] lg:max-w-[785px]">
+        <Flex className="gap-1 min-[1600px]:gap-6 flex-col">
           <Flex className="gap-2 flex-col">
             <h5 className="p14 text-neutral-10">&lt;Welcome! /&gt;</h5>
             <h2 className="caps14 text-neutral-40">FULLSTACK DEVELOPER</h2>

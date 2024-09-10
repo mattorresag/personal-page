@@ -19,13 +19,12 @@ export const RecentJobCard = ({
   return (
     <Flex className="flex-col gap-10 max-w-[568px] w-full">
       <Link href={url} target="_blank">
-        <Flex className="relative w-full  aspect-[568/664] rounded-[16px] border-[2px] border-[#9897FF]">
-          <div className="overflow-hidden inline-block rounded-[16px]">
+        <Flex className="relative w-full  h-[60vh] max-h-[664px] rounded-[16px] border-[2px] border-[#9897FF]">
+          <div className=" rounded-[16px] relative w-full h-full overflow-hidden">
             <Image
               src={image}
               alt={title}
-              width={568}
-              height={664}
+              layout="fill"
               objectFit="cover"
               className="hover:scale-[1.05] rounded-[16px]  transition ease-in"
               quality={100}

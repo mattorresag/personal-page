@@ -7,7 +7,7 @@ export const GetInTouchButton = () => {
       className="w-fit  bg-opacity-50"
     >
       <button
-        className="bg-primary-pure/80 hover:bg-primary-pure/10 transition ease-in duration-200 h-14 w-[210px] lg:w-[210px]"
+        className="border-[1px] border-primary-pure bg-primary-pure/30 hover:border-none hover:bg-primary-pure/10 transition ease-in duration-200 h-14 w-[210px] lg:w-[210px]"
         style={{
           clipPath:
             "polygon(5.3% 0, 100% 0, 100% 80%, 94.7% 100%, 0 100%, 0 20%)",
