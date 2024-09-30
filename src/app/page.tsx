@@ -7,6 +7,7 @@ import { BuildTogether } from "@/features/BuildTogether/BuildTogether";
 import { Carousel } from "@/features/Carousel/Carousel";
 import { HeroSection } from "@/features/HeroSection/HeroSection";
 import dynamic from "next/dynamic";
+import Script from "next/script";
 import { Toaster } from "sonner";
 
 const Video = dynamic(
@@ -23,6 +24,32 @@ export default function Home() {
     <>
       <GoogleAnalytics />
       <Toaster closeButton />
+      <Script
+        id="schema-org"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            url: "https://matheusftagdev.vercel.app/",
+            name: "Matheus Torres | FullStack Developer",
+            description:
+              "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages with exceptional speed, quality, and performance.",
+            potentialAction: {
+              "@type": "SearchAction",
+              target:
+                "https://matheusftagdev.vercel.app/?q={search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+            author: {
+              "@type": "Person",
+              name: "Matheus Torres",
+              url: "https://matheusftagdev.vercel.app/",
+            },
+          }),
+        }}
+      />
+
       <Layout>
         <section
           id="matheus"
