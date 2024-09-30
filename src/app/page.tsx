@@ -7,6 +7,7 @@ import { BuildTogether } from "@/features/BuildTogether/BuildTogether";
 import { Carousel } from "@/features/Carousel/Carousel";
 import { HeroSection } from "@/features/HeroSection/HeroSection";
 import dynamic from "next/dynamic";
+import Head from "next/head";
 import Script from "next/script";
 import { Toaster } from "sonner";
 
@@ -22,6 +23,9 @@ const RecentJobs = dynamic(() =>
 export default function Home() {
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://matheusftagdev.vercel.app/" />
+      </Head>
       <GoogleAnalytics />
       <Toaster closeButton />
       <Script
