@@ -6,7 +6,7 @@ export const BuildTogether = () => {
   return (
     <Flex
       id="contact"
-      className="lg:snap-start  flex-col  gap-12 lg:gap-20 max-[1280px]:px-[5%] mt-20"
+      className="flex-col  gap-12 lg:gap-20 max-[1280px]:px-[5%] mt-20"
     >
       <Flex className="max-lg:flex-col justify-center gap-5 max-lg:items-center">
         <svg

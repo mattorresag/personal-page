@@ -4,7 +4,7 @@ import React from "react";
 
 export const Carousel = () => {
   return (
-    <Flex className="lg:snap-start  py-20 justify-center items-center w-full">
+    <Flex className="py-20 justify-center items-center w-full">
       <Flex className="w-full overflow-hidden cursor-pointer">
         <Flex className="w-full justify-center">
           <Flex className="gap-8 justify-center">

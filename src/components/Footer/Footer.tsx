@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="lg:snap-start border-t-[1px] border-white/10 flex max-lg:flex-col py-16 max-lg:px-[5%] w-full items-center justify-center">
+    <footer className="border-t-[1px] border-white/10 flex max-lg:flex-col py-16 max-lg:px-[5%] w-full items-center justify-center">
       <Flex className="max-lg:flex-col w-full max-w-[1200px] lg:justify-between lg:items-center gap-10">
         <p className="h4 text-neutral-60">© 2024 Matheus Torres</p>
         <h5 className="text-[2.25rem] lg:text-[2.5rem] text-neutral-10 font-[300]">

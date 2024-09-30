@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 export const RecentJobs = () => {
   return (
     <Flex
-      className="lg:snap-start flex-col relative min-[1600px]:pt-10 max-lg:mt-8 py-20 z-2 gap-12 lg:gap-20 max-[1280px]:px-[5%] w-full items-center"
+      className="flex-col relative min-[1600px]:pt-10 max-lg:mt-8 py-20 z-2 gap-12 lg:gap-20 max-[1280px]:px-[5%] w-full items-center"
       id="projects"
     >
       <Flex className="w-full h-full absolute top-0 z-[0] background-image">
@@ -95,7 +95,7 @@ export const RecentJobs = () => {
               title="Avocado Mídia - "
               jobType="INSTITUTIONAL HOME PAGE"
               image="/avocado.png"
-              url="https://avocado-site-8ofv.vercel.app/"
+              url="https://avocado-site-1.vercel.app/"
             />
 
             <RecentJobCard
