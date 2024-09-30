@@ -23,9 +23,6 @@ const RecentJobs = dynamic(() =>
 export default function Home() {
   return (
     <>
-      <Head>
-        <link rel="canonical" href="https://matheusftagdev.vercel.app/" />
-      </Head>
       <GoogleAnalytics />
       <Toaster closeButton />
       <Script

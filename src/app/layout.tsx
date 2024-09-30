@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const figtree = Figtree({ subsets: ["latin"] });
 
@@ -24,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="canonical" href="https://matheusftagdev.vercel.app/" />
+      </Head>
       <body className={figtree.className}>{children}</body>
     </html>
   );
