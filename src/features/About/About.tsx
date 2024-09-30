@@ -68,10 +68,10 @@ export const About = (): JSX.Element => {
                   </svg>
 
                   <Flex className="flex-col gap-2 ">
-                    <p className="h2 text-neutral-10 ">Matheus Torres</p>
-                    <p className="caps16 text-neutral-40 text-nowrap font-mPlusCodeLatin tracking-[6px] font-[700]">
+                    <h1 className="h2 text-neutral-10 ">Matheus Torres</h1>
+                    <h2 className="caps16 text-neutral-40 text-nowrap font-mPlusCodeLatin tracking-[6px] font-[700]">
                       FULLSTACK DEVELOPER
-                    </p>
+                    </h2>
                   </Flex>
                 </Flex>
                 <svg
@@ -103,11 +103,11 @@ export const About = (): JSX.Element => {
               </Flex>
               <p className="p12 lg:p16 text-neutral-60 leading-[150%] font-[300]">
                 I&apos;m a FullStack Developer with over three years of hands-on
-                experience working with React, TypeScript, Next.js, NestJS, and
-                Django. I love diving into complex problems and crafting simple,
-                effective solutions. My background includes testing with
-                Cypress.io and Pytest, always keeping user experience at the
-                forefront of everything I build.
+                experience working with React, TypeScript, Next.js, NestJS,
+                TailwindCSS and Django. I love diving into complex problems and
+                crafting simple, effective solutions. My background includes
+                testing with Cypress.io and Pytest, always keeping user
+                experience at the forefront of everything I build.
                 <br />
                 <br />
                 <span className="inline-block">
