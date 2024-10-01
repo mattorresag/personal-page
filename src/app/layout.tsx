@@ -6,11 +6,11 @@ import Head from "next/head";
 const figtree = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Matheus Torres | FullStack Developer",
+  title: "Matheus Torres - FullStack Dev",
   description:
     "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages with exceptional speed, quality, and performance.",
   openGraph: {
-    title: "Matheus Torres | FullStack Developer",
+    title: "Matheus Torres - FullStack Dev",
     description:
       "FullStack Developer specializing in React, Next.js, Node.js, and more.",
     type: "website",

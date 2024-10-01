@@ -22,6 +22,9 @@ export const Header = (): JSX.Element => {
         <Link href="#contact">
           <p>Contact</p>
         </Link>
+        <Link target="_blank" href="https://github.com/mattorresag">
+          GitHub
+        </Link>
       </nav>
       <button
         onClick={() => {
