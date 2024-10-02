@@ -122,11 +122,16 @@ export const About = (): JSX.Element => {
                 &lt;Skills &gt;
               </p>
               <Flex className="items-center gap-6 flex-wrap max-lg:justify-between">
-                <SkillCard text="NextJs" />
                 <SkillCard text="React" />
+                <SkillCard text="NextJs" />
                 <SkillCard text="TypeScript" />
+                <SkillCard text="TailwindCSS" />
+              </Flex>
+              <Flex className="items-center gap-6 flex-wrap max-lg:justify-between">
                 <SkillCard text="NestJS" />
+                <SkillCard text="MaterialUI" />
                 <SkillCard text="Django" />
+                <SkillCard text="Docker" />
               </Flex>
             </Flex>
           </Flex>

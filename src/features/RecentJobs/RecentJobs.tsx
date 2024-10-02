@@ -14,10 +14,11 @@ export const RecentJobs = () => {
     >
       <Flex className="w-full h-full absolute top-0 z-[0] background-image">
         <Image
-          src="/background.png"
+          src="/background.webp"
           layout="fill"
           objectFit="cover"
           alt="background image"
+          quality={10}
         />
       </Flex>
       <Flex className="z-[1] max-w-[1200px] max-lg:flex-col lg:gap-[96px] lg:justify-between gap-4 max-lg:items-center">
@@ -94,7 +95,7 @@ export const RecentJobs = () => {
               description="Built with Next.js 14 + TailwindCSS."
               title="Avocado Mídia - "
               jobType="INSTITUTIONAL HOME PAGE"
-              image="/avocado.png"
+              image="/avocado.jpg"
               url="https://avocado-site-1.vercel.app/"
             />
 
@@ -102,7 +103,7 @@ export const RecentJobs = () => {
               description="Multitenant app built with Next.js 13 using server-side rendering for SEO + TailwindCSS."
               title="Fretatech - "
               jobType="SERVICE PLATFORM"
-              image="/fretatech.png"
+              image="/fretatech.jpg"
               url="https://fretatech-front.vercel.app/"
             />
           </Flex>
@@ -118,14 +119,14 @@ export const RecentJobs = () => {
               description="Built with Next.js 14 + TailwindCSS."
               title="Bernardo Entusiasta - "
               jobType="INSTITUTIONAL LANDING PAGE"
-              image="/bernardo.png"
+              image="/bernardo.jpg"
               url="https://bernardo-entusiasta.vercel.app/"
             />
             <RecentJobCard
               description="Built with Next.js 12 + i18n + TailwindCSS."
               title="HRSKINS - "
               jobType="INSTITUTIONAL WEBSITE"
-              image="/hrskins.png"
+              image="/hrskins.jpg"
               url="https://hrskins.gg"
             />
           </Flex>

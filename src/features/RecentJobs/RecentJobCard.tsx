@@ -18,7 +18,7 @@ export const RecentJobCard = ({
 }: Props): JSX.Element => {
   return (
     <Flex className="flex-col gap-10 max-w-[568px] w-full">
-      <Link href={url} target="_blank">
+      <Link href={url} target="_blank" rel="noopener noreferrer">
         <Flex className="relative w-full  h-[60vh] max-h-[664px] rounded-[16px] border-[2px] border-[#9897FF]">
           <div className=" rounded-[16px] relative w-full h-full overflow-hidden">
             <Image

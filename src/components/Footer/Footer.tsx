@@ -15,6 +15,7 @@ export const Footer = () => {
           <Link
             href="https://www.linkedin.com/in/matheusftaguiar/"
             target="_blank"
+            rel="noreferrer noopener"
           >
             <svg
               width="48"
@@ -63,7 +64,11 @@ export const Footer = () => {
               />
             </svg>
           </Link>
-          <Link href="https://github.com/mattorresag" target="_blank">
+          <Link
+            href="https://github.com/mattorresag"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <Flex className="items-center text-primary-10 justify-center h-12 w-12 rounded-[100%] border-[2px] border-white/10">
               <svg
                 width="24"
