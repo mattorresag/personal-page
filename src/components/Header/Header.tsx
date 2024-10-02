@@ -11,15 +11,15 @@ export const Header = (): JSX.Element => {
     }
   };
   return (
-    <Flex className="items-center justify-between pt-8">
+    <Flex className="items-center justify-between pt-8 w-full">
       <nav className="flex bg-white/5 px-5 rounded-md gap-8 items-center h4 text-neutral-10 h-12 hidden lg:flex">
-        <Link href="#">
+        <Link href="/">
           <p>Matheus Torres</p>
         </Link>
-        <Link href="#projects">
+        <Link href="/#projects">
           <p>Projects</p>
         </Link>
-        <Link href="#contact">
+        <Link href="/#contact">
           <p>Contact</p>
         </Link>
         <Link target="_blank" href="https://github.com/mattorresag">
