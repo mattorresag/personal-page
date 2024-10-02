@@ -8,11 +8,11 @@ const figtree = Figtree({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Matheus Torres - FullStack Dev",
   description:
-    "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages with exceptional speed, quality, and performance.",
+    "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages.",
   openGraph: {
     title: "Matheus Torres - FullStack Dev",
     description:
-      "FullStack Developer specializing in React, Next.js, Node.js, and more.",
+      "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages.",
     type: "website",
     url: "https://matheusftagdev.vercel.app/",
   },

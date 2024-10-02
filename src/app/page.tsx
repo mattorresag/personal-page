@@ -35,7 +35,7 @@ export default function Home() {
             url: "https://matheusftagdev.vercel.app/",
             name: "Matheus Torres - FullStack Dev",
             description:
-              "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages with exceptional speed, quality, and performance.",
+              "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages",
             potentialAction: {
               "@type": "SearchAction",
               target:
