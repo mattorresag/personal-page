@@ -6,6 +6,7 @@ import Head from "next/head";
 const figtree = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(`https://matheusftagdev.vercel.app`),
   title: "Matheus Torres - FullStack Dev",
   description:
     "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages.",
@@ -15,6 +16,9 @@ export const metadata: Metadata = {
       "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages.",
     type: "website",
     url: "https://matheusftagdev.vercel.app/",
+  },
+  alternates: {
+    canonical: "./",
   },
 };
 
@@ -44,7 +48,6 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="canonical" href="https://matheusftagdev.vercel.app/" />
       </Head>
       <body className={figtree.className}>{children}</body>
     </html>
