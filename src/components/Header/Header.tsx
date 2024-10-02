@@ -59,7 +59,7 @@ export const Header = (): JSX.Element => {
             </clipPath>
           </defs>
         </svg>
-        <p className="h4">matheusftaguiar@gmail.com</p>
+        <p className="h4">Click to copy my email</p>
       </button>
     </Flex>
   );

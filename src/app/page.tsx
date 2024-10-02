@@ -69,7 +69,7 @@ export default function Home() {
         </section>
         <RecentJobs />
         <BuildTogether />
-        <Carousel />
+        {/* <Carousel /> */}
         <Footer />
       </Layout>
     </>
