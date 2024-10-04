@@ -23,18 +23,6 @@ export const HeroSection = (): JSX.Element => {
     visible: { opacity: 1, y: 0 },
   };
 
-  const svgAnimation = {
-    hidden: { pathLength: 0, opacity: 0 },
-    visible: {
-      pathLength: 1,
-      opacity: 1,
-      transition: {
-        duration: 2,
-        ease: "easeInOut",
-      },
-    },
-  };
-
   return (
     <Flex className="min-[1600px]:gap-[104px] gap-8 flex-col w-full h-full pb-20 lg:pb-[88px] max-[1280px]:px-[5%]">
       <Header />
