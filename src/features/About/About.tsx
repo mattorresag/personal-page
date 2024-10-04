@@ -2,6 +2,17 @@ import { Flex } from "@/components/Flex/Flex";
 import Image from "next/image";
 import { SkillCard } from "./SkillCard";
 
+const skills = [
+  "React",
+  "NextJs",
+  "TypeScript",
+  "TailwindCSS",
+  "NestJS",
+  "MaterialUI",
+  "Django",
+  "Docker",
+];
+
 export const About = (): JSX.Element => {
   return (
     <Flex className="lg:h-screen w-full max-lg:flex-col-reverse relative py-10 min-[1600px]:py-40 gap-20 justify-center w-screen">
@@ -121,17 +132,12 @@ export const About = (): JSX.Element => {
               <p className="caps16 text-neutral-60 uppercase font-mPlusCodeLatin tracking-[6px] font-[700]">
                 &lt;Skills &gt;
               </p>
-              <Flex className="items-center gap-6 flex-wrap max-lg:justify-between">
-                <SkillCard text="React" />
-                <SkillCard text="NextJs" />
-                <SkillCard text="TypeScript" />
-                <SkillCard text="TailwindCSS" />
-              </Flex>
-              <Flex className="items-center gap-6 flex-wrap max-lg:justify-between">
-                <SkillCard text="NestJS" />
-                <SkillCard text="MaterialUI" />
-                <SkillCard text="Django" />
-                <SkillCard text="Docker" />
+              <Flex className="items-center gap-6 grid grid-cols-[repeat(2,minmax(100px,200px))] min-[500px]:grid-cols-[repeat(3,minmax(100px,200px))] lg:grid-cols-[repeat(4,minmax(100px,200px))] ">
+                {skills.map((skill, index) => (
+                  <div key={`${skill}-${index}`}>
+                    <SkillCard text={skill} />
+                  </div>
+                ))}
               </Flex>
             </Flex>
           </Flex>
