@@ -4,10 +4,8 @@ import { GoogleAnalytics } from "@/components/GoogleAnalytics/GoogleAnalytics";
 import { Layout } from "@/components/Layout/Layout";
 import { AnimatedAbout } from "@/features/About/AnimatedAbout";
 import { BuildTogether } from "@/features/BuildTogether/BuildTogether";
-import { Carousel } from "@/features/Carousel/Carousel";
 import { HeroSection } from "@/features/HeroSection/HeroSection";
 import dynamic from "next/dynamic";
-import Head from "next/head";
 import Script from "next/script";
 import { Toaster } from "sonner";
 
@@ -69,7 +67,6 @@ export default function Home() {
         </section>
         <RecentJobs />
         <BuildTogether />
-        {/* <Carousel /> */}
         <Footer />
       </Layout>
     </>
