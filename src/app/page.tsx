@@ -30,20 +30,19 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            url: "https://matheusftagdev.vercel.app/",
+            url: "https://www.matheustorres.dev/",
             name: "Matheus Torres - FullStack Dev",
             description:
               "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages",
             potentialAction: {
               "@type": "SearchAction",
-              target:
-                "https://matheusftagdev.vercel.app/?q={search_term_string}",
+              target: "https://www.matheustorres.dev/?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
             author: {
               "@type": "Person",
               name: "Matheus Torres",
-              url: "https://matheusftagdev.vercel.app/",
+              url: "https://www.matheustorres.dev/",
             },
           }),
         }}

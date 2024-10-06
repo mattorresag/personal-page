@@ -6,7 +6,7 @@ import Head from "next/head";
 const figtree = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`https://matheusftagdev.vercel.app`),
+  metadataBase: new URL(`https://www.matheustorres.dev`),
   title: "Matheus Torres - FullStack Dev",
   description:
     "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages.",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "I am Matheus Torres, a FullStack Developer with skills in React, Next.js, Node.js, and more. I am a professional who transforms design into web pages.",
     type: "website",
-    url: "https://matheusftagdev.vercel.app/",
+    url: "https://www.matheustorres.dev/",
   },
   alternates: {
     canonical: "./",
